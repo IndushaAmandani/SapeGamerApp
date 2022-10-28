@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriangleActivity">
+
+    <TextView
+        android:id="@+id/lblRadious"
+        android:layout_width="363dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome to ShapeGamer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#3895A1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/txtShape"
+        android:layout_width="236dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Select a Shape"
+        android:textAlignment="center"
+        android:textColor="#3C757C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <Button
+        android:id="@+id/btnCircle"
+        android:layout_width="233dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCircleClear"
+        android:layout_width="238dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Rectangle"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <Button
+        android:id="@+id/btnTriangle"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Triangle"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

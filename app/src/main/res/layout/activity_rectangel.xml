@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RectangleActivity">
+
+    <TextView
+        android:id="@+id/lblBase2"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Base :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#3895A1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <TextView
+        android:id="@+id/lblHeight1"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Height :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#3895A1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/lblAreaCircle"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Area :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#3895A1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <TextView
+        android:id="@+id/lblPerimeterCircle"
+        android:layout_width="183dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Perimeter :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#3895A1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <Button
+        android:id="@+id/btnRectangleCalculate"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <Button
+        android:id="@+id/btnRectangelClear"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="220dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Clear"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <EditText
+        android:id="@+id/txtHeight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/txtBase2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/lblRectangleArea"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <TextView
+        android:id="@+id/lblRectangelPerimeter"
+        android:layout_width="351dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
